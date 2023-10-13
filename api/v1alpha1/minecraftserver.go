@@ -76,7 +76,7 @@ const GameModeSurvival GameMode = "Survival"
 const GameModeCreative GameMode = "Creative"
 
 // +kubebuilder:validation:Enum=Public;AllowListOnly
-// +kubebuilder:default:=AllowListOnly
+// +kubebuilder:default:=Public
 type AccessMode string
 
 const AccessModeAllowListOnly AccessMode = "AllowListOnly"
