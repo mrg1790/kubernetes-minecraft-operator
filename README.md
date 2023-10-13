@@ -15,7 +15,7 @@ responsible for the security and data-integrity of their own servers. The API su
 You can install the latest version of the operator by running this command with your cluster configured in `kubectl`.
 
 ```bash
-curl -L https://github.com/JamesLaverack/kubernetes-minecraft-operator/releases/latest/download/operator.yaml | kubectl apply -f -
+curl -L https://github.com/mrg1790/kubernetes-minecraft-operator/releases/latest/download/operator.yaml | kubectl apply -f -
 ```
 
 ### Tags
